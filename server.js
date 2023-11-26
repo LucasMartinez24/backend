@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const productosRoutes = require('./routes/productoRoutes');
 const cors = require('cors');
 const app = express();
-const port = 3000;
+const port = "0.0.0.0";
 const corsOptions = {
   origin: 'http://localhost:4200',// Reemplaza con la URL de tu aplicación Angular
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
